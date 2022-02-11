@@ -1,0 +1,1 @@
+// alert("Esta pagina utiliza cookies");

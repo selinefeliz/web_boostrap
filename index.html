@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/66e60b4850.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<title>Web with bootstrap</title>
+</head>
+
+<body>
+  <!-- barra de navegacion -->
+
+  <section>
+    <ul class="nav justify-content-center">
+
+      <a class="navbar-brand" href="#">
+        <img src="img/SP.png" alt="" width="90" height="34" class="d-inline-block align-text-top">
+        <em>Seline Feliz</em>
+      </a>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Creator</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Products
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">X-box</a></li>
+          <li><a class="dropdown-item" href="#">x-box S</a></li>
+          <li>
+            <hr class="dropdown-divider">Mouse
+          </li>
+          <li><a class="dropdown-item" href="#"> Keyboard</a></li>
+        </ul>
+      </li>
+
+
+      <a class="sign_in" href="#">Sing in</a>
+      <div class="Menu">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><button class="dropdown-item" type="button">Action</button></li>
+          <li><button class="dropdown-item" type="button">Another action</button></li>
+          <li><button class="dropdown-item" type="button">Something else here</button></li>
+        </ul>
+      </div>
+
+      </nav>
+    </ul>
+
+  </section>
+
+  <!-- carrusel -->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/xb.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Backbone One for iOS</h5>
+            <p>Comfortable ergonomics I Universal fit I 3-month trial of Xbox Game Pass Ultimate
+              <br>
+              Get free shipping and hassle-free returns when you buy direct from Microsoft Store.
+            </p>
+            <label for="btn1" class="lab1"> $999.09</label>
+            <a href="https://www.xbox.com/en-US/accessories/mobile-gaming/backbone-one" target="_blank"><button
+                class="btn1">Buy it here</a></button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/control.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Xbox Elite Series 2</h5>
+            <p>El Mando Inalámbrico Xbox Elite Series 2 ofrece más de 30 nuevas formas de
+              <br> jugar como un profesional, incluidos nuevos sticks de tensión regulable
+            </p>
+            <label for="btn1" class="lab1"> $890.89</label>
+            <a href="https://www.microsoft.com/es-es/d/mando-inalambrico-xbox-elite-series-2/8rsn7j6375gg?icid=Cat-Xbox-CP5-Elite"
+              target="_blank"><button class="btn2">Buy it here</a></button>
+
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/xbox.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Xbox Series S</h5>
+            <p>Disfruta de más de 100 juegos en cuanto la sacas de la caja, con una prueba de 1 mes de Xbox Game Pass
+            </p>
+            <label for="btn1" class="lab1"> $178.89</label>
+            <a href="https://www.amazon.com/-/es/Xbox-S/dp/B08G9J44ZN" target="_blank"><button class="btn3">Buy it
+                here</a></button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+  <!-- cards -->
+
+  <!-- productos antiguos -->
+  <p class="h1">Productos Antiguos</p>
+  <div class="infoPro">
+    
+    <div class="card" style="width: 18rem;">
+      <img src="img/img2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PlayStation</h5>
+        <p class="card-text">Esta consola de Sony Computer Entertainment, también llamada PS1, marcó el glorioso hito de ser la primera en implementar exitosamente el uso de CD-ROMs</p>
+        <a href="https://es.wikipedia.org/wiki/Xbox" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="infoPro">
+    <div class="card" style="width: 18rem;">
+      <img src="img/img4.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nintendo 64 </h5>
+        <p class="card-text">En 1996, la casa de Mario no sólo buscó innovar al entrar al mundo de los polígonos, además busco crear un nuevo tipo de control con su Nintendo 64  </p>
+        <a href="https://www.sopitas.com/geek/videojuegos/dia-gamer-control-videojuegos-evolucion/" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="infoPro">
+    <div class="card" style="width: 18rem;">
+      <img src="img/img5.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Wii U</h5>
+        <p class="card-text">Lanzada en noviembre del año 2012, es la más reciente consola de mesa de Nintendo, siendo la sucesora de lo que fue su consola Wii.
+          content.</p>
+        <a href="https://medium.com/la-cultura-gamer/el-consumo-los-productos-generados-por-las-industrias-de-videojuegos-4f9aaa7607f" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- productos del 2000 -->
+  <p class="h1">Productos de la generacion 2000´s</p>
+  <div class="infoPro2">
+    
+    <div class="card1" style="width: 18rem;">
+      <img src="img/2-1.jpg" class="card-img-top2" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> GTA (grand theft auto)</h5>
+        <p class="card-text">Esta consola de Sony Computer Entertainment, también llamada PS1, marcó el glorioso hito de ser la primera en implementar exitosamente el uso de CD-ROMs</p>
+        <a href="https://es.wikipedia.org/wiki/Xbox" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="infoPro2">
+    <div class="card1" style="width: 18rem;">
+      <img src="img/2--2.jpg" class="card-img-top2" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PlayStation 2 </h5>
+        <p class="card-text">En el 2000 Sony lanzó la anticipada PlayStation 2 y Sega lanzó otra consola con las mismas características técnicas de la Dreamcast, nada más que venia con un monitor de 14 pulgadas, un teclado, altavoces  </p>
+        <a href="https://www.sopitas.com/geek/videojuegos/dia-gamer-control-videojuegos-evolucion/" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="infoPro2">
+    <div class="card1" style="width: 18rem;">
+      <img src="img/2-3.jpg" class="card-img-top2" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mini Consola Nes Clásica</h5>
+        <p class="card-text">La revolución de Nintendo tuvo lugar en abril de 2006 cuando presentó su Wii, una máquina que con su innovador sistema de control por movimiento.113​  </p>
+        <a href="https://medium.com/la-cultura-gamer/el-consumo-los-productos-generados-por-las-industrias-de-videojuegos-4f9aaa7607f" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="infoPro2">
+    <div class="card1" style="width: 18rem;">
+      <img src="img/2-4.jpg" class="card-img-top2" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nintendo espero  </h5>
+        <p class="card-text">En el 2000 Sony lanzó la anticipada PlayStation 2 y Sega lanzó otra consola con las mismas características técnicas de la Dreamcast, nada más que venia con un monitor de 14 pulgadas, un teclado, altavoces  </p>
+        <a href="https://www.sopitas.com/geek/videojuegos/dia-gamer-control-videojuegos-evolucion/" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- productos actualizados -->
+  <p class="h1">Productos  Actualizados</p>
+  <div class="infoPro3">
+    
+    <div class="card" style="width: 18rem;">
+      <img src="img/3-1.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PlayStation 4</h5>
+        <p class="card-text">El 65% de los encuestados aseguraron que actualmente están trabajando en títulos para móvil, mientras que un porcentaje muy similar, el 64%, planea lanzar su próximo juego en dispositivos móviles</p>
+        <a href="https://www.lavanguardia.com/tecnologia/videojuegos/videojuegos-mobile/20140711/54411810441/desarrolladores-juegos-prefieren-pc-moviles-a-consolas.html" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="infoPro3">
+    <div class="card" style="width: 18rem;">
+      <img src="img/3-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">>PS5</h5>
+        <p class="card-text">verá la luz a mediados de noviembre de 2020, al igual que también lo hará Xbox Series X, su máxima competidora en el mercado de la nueva generación de consolas.   </p>
+        <a href="https://areajugones.sport.es/videojuegos/desarrollar-para-ps5-es-muy-facil-segun-desarrolladores/" class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="infoPro3">
+    <div class="card" style="width: 18rem;">
+      <img src="img/3-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Xbox One</h5>
+        <p class="card-text">Al cierre 2016, el mercado de videojuegos valdrá 22,852 millones de pesos (mdp) y un crecimiento de 13.3% con respecto al año anterior, lo que implicaría el mayor incremento registrado desde 2010</p>
+        <a href="https://www.forbes.com.mx/mercado-de-videojuegos-en-mexico-vale-mas-de-22800-mdp/"  class="btn btn-primary">Mas información</a>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- contoles -->
+<p id="cont">Controles</p>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gamer PS</font></font></h2>
+        <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PS control desde el 2020 Led-light</font></font></p>
+        
+      </div>
+      <div class="bg-light shadow-sm mx-auto" style="width: 90%; height: 360px; border-radius: 21px 21px 0 0;">
+     <img src="img/cn1.jpg" alt="" class="im1"></div>
+    </div>
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gamepad Xbox </font></font></h2>
+        <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">El controlador de videojuegos Xbox de Microsoft</font></font></p>
+      </div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <img src="img/cn3.jpg" alt="" class="im2"></div>
+    </div>
+    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Control S-X</font></font></h2>
+        <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Facil manejo en cualquier x-box</font></font></p>
+      </div>
+      <div class="bg-light shadow-sm mx-auto" style="width: 90%; height: 310px; border-radius: 21px 21px 0 0;">
+        <img src="img/cn2.jpg" alt="" class="im3"></div>
+    </div>
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">One S/x Led </font></font></h2>
+        <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Control Alambrico Scuff Pc/xbox super </font></font></p>
+      </div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 100%; height: 340px; border-radius: 21px 21px 0 0;">
+      
+        <img src="img/cn4.jpg" alt="" class="im4"></div>
+    </div>
+  </div>
+
+  <!-- new products -->
+  <div id="new-products">
+    <div class="proximo">
+       <p class="soon">Proximamente -->  </p>
+       <div class="icon">
+        <i class="fa-regular fa-keyboard"></i>
+  </div>
+</div> 
+    <p class="new">NUEVOS PRODUCTOS</p>
+    <div class="imgs">
+      <p class="keyb">Keyboards</p>
+    <img src="https://m.media-amazon.com/images/I/71nRfZNacyL._AC_SL1500_.jpg" alt="" class="imgsp">
+    <img src="https://m.media-amazon.com/images/I/71eWnvYKN3L._AC_SL1500_.jpg" alt="" class="imgsp">
+    <img src="https://thermaltake.azureedge.net/pub/media/catalog/product/cache/6bf0ed99c663954fafc930039201ed07/l/2/l20gt01.jpg" alt="" class="imgsp">
+     
+  </div>
+</div>
+
+  <!-- precios -->
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Precios</font></font></h1>
+    <p class="fs-5 text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cree rápidamente una tabla de precios efectiva para sus clientes potenciales con este ejemplo de Bootstrap. </font><font style="vertical-align: inherit;">Está construido con componentes y utilidades de Bootstrap predeterminados con poca personalización.</font></font></p>
+  </div>
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gratis</font></font></h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$0 </font></font><small class="text-muted fw-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/mes</font></font></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10 usuarios incluidos</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2 GB de almacenamiento</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Soporte de correo electrónico</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Acceso al centro de ayuda</font></font></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Registrate gratis</font></font></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pro</font></font></h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$15 </font></font><small class="text-muted fw-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/mes</font></font></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20 usuarios incluidos</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10 GB de almacenamiento</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Soporte prioritario por correo electrónico</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Acceso al centro de ayuda</font></font></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Empezar</font></font></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Empresa</font></font></h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">$29 </font></font><small class="text-muted fw-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/mes</font></font></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">30 usuarios incluidos</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">15 GB de almacenamiento</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Soporte telefónico y por correo electrónico</font></font></li>
+              <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Acceso al centro de ayuda</font></font></li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contáctenos</font></font></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      
+   
+  </main>
+  <!-- page navegation -->
+  <nav aria-label="Page navigation example" class="pagenav">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Button trigger modal -->
+   
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   Notificacion?
+</button>
+   
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+  <!-- barra lateral de redes sociales -->
+  <div class="social-icons">
+    <a href=""><i class="fab-facebook-f"><img src="img/instagram_f_icon-icons.com_65485.ico" alt="" width="35px"
+          height="35px"></i></a>
+    <a href=""><i class="fab fa_twitter"><img src="img/FB_icon-icons.com_65484.ico" alt="" width="35px"
+          height="35px"></i></a>
+    <a href=""><i class="instagram"><img src="img/tweetdeck_twiiter_bird_19180.ico" alt="" width="35px"
+          height="35px"></i></a>
+    <a href=""><i class="youtube"><img src="img/YOUTUBE_icon-icons.com_65487.ico" alt="" width="35px"
+          height="35px"></i></a>
+  </div>
+
+  <!-- </footer> -->
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <figure>
+          <a href="#">
+            <img src="img/SP.png" alt="logo">
+          </a>
+        </figure>
+      </div>
+      <div class="box">
+        <h2>Sobre Nosotros</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dicta!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, itaque!</p>
+      </div>
+      <div class="box">
+        <h2>siguenos</h2>
+        <div class="red-social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy;2022 <b>Seline Feliz</b> -Todos los derechos reservados</small>
+    </div>
+  </footer>
+
+<script src="javascript/index.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
